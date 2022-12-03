@@ -840,3 +840,65 @@ header address {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
+
+/* 新規追加 */
+
+.text_margin{
+	margin-left: 5%;
+}
+.m-form-text {
+    height: 2.4em;
+    width: 70%;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.m-form-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.button_solid001 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: #eee;
+    filter: drop-shadow(0px 2px 4px #ccc);
+    border-radius: 3px;
+}
+.button_solid001 a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px -5px rgb(0 0 0 / 15%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.sisan_frame{
+	margin-top:20px;
+}
+
+.buy_frame{
+	padding: 10px 25px;
+	display:flex
+}
+.kozin_frame{
+	width:49%;
+	margin-top:20px;
+	margin:auto;
+}
+
+.hozin_frame{
+	width:49%;
+	margin-top:20px;
+	margin:auto;
+}
