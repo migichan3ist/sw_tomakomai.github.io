@@ -5,7 +5,7 @@ document.getElementById("sisan_click").onclick = function() {
 
     var kouho_emelent = document.getElementById("kouho");
     var newElement = document.createElement("p"); // p要素作成
-    var newContent = document.createTextNode("候補者数：10人"); // テキストノードを作成
+    var newContent = document.createTextNode("友だち候補者数：10人"); // テキストノードを作成
     newElement.appendChild(newContent); // p要素にテキストノードを追加
     kouho_emelent.appendChild(newElement);
 
