@@ -1,6 +1,6 @@
 console.log("aaaaaaaaaaaaaaaaaa");
 
-const url = 'https://hooks.slack.com/services/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';
+const url = 'https://hooks.slack.com/services/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';
 const data = {
     text: "ユーザーがアクセスしました"
 };

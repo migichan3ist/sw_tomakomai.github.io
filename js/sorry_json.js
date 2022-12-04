@@ -1,6 +1,6 @@
 console.log("aaaaaaaaaaaaaaaaaa");
 
-const url = 'https://hooks.slack.com/services/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';
+const url = 'https://hooks.slack.com/services/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';
 const data = {
     text: "ユーザーが購入しました"
 };
