@@ -1,0 +1,4 @@
+num_access_user
+0
+num_buy_user
+0
