@@ -22,18 +22,18 @@ document.getElementById("sisan_click").onclick = function() {
     hito_emelent.appendChild(newElement);
 };
 
-function pagenation() {
+function pagenation(url) {
     // 人数カウントする処理
 
     // ページ遷移
-    location.href = "./sorry.html";
+    location.href = url;
 }
 
 document.getElementById("kozin_click").onclick = function() {
-    pagenation();
+    pagenation("./sorry_kozin.html");
 };
 
 document.getElementById("hozin_click").onclick = function() {
-    pagenation();
+    pagenation("./sorry_hozin.html");
 };
 
