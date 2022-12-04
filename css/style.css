@@ -902,3 +902,13 @@ header address {
 	margin-top:20px;
 	margin:auto;
 }
+
+.img_view_frame{
+	text-align: center;
+}
+
+.img_view{
+	margin-top:20px;
+	margin:auto;
+	max-height: 300px;
+}

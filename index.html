@@ -18,7 +18,7 @@
 </header>
 
 <!--メインメニュー-->
-<nav id="menubar">
+<!-- <nav id="menubar">
 <ul>
 <li><a href="index.html">ホーム</a></li>
 <li><a href="">サービス</a>
@@ -32,7 +32,7 @@
 <li><a href="faq.html">製品FAQ</a></li>
 <li><a href="contact.html">お問い合わせ</a></li>
 </ul>
-</nav>
+</nav> -->
 
 <div id="contents">
 
@@ -120,7 +120,7 @@
 <input type="text" name="" value="" class="m-form-text" />
 </div>
 
-<div class="sisan_frame">
+<div class="sisan_frame" id="sisan_click">
 	<div class="button_solid001">
 		<a>試算</a>
 	</div>
@@ -128,12 +128,12 @@
 
 <h3>おためし結果</h3>
 
-<div class="before_write">
+<div class="before_write" id="before_write">
 <p>上記項目を入力することで結果が表示されます</p>	
 </div>
-<div class="kouho"></div>
-<div class="form"></div>
-<div class="hito"></div>
+<div id="kouho"></div>
+<div id="form"></div>
+<div id="hito"></div>
 
 </section>
 
@@ -148,13 +148,13 @@
 <h2>依頼する</h2>
 
 <div class="buy_frame">
-	<div class="kozin_frame">
+	<div class="kozin_frame" id="kozin_click">
 		<div class="button_solid001">
 			<a>個人の方</a>
 		</div>
 	</div>
 
-	<div class="hozin_frame">
+	<div class="hozin_frame" id="hozin_click">
 		<div class="button_solid001">
 			<a>法人の方</a>
 		</div>
@@ -186,6 +186,8 @@
 <!--biz56用のスクリプト-->
 <script src="js/main.js"></script>
 
+<!-- 新規追加 -->
+<script src="js/index.js"></script>
 <!--ハンバーガーボタン（開閉操作のボタン）-->
 <div id="menubar_hdr"></div>
 
